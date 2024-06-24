@@ -1,0 +1,13 @@
+/* Navbar.css */
+.navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* Navbar.css */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+}

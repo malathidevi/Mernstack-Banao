@@ -1,0 +1,25 @@
+/* GroupDetails.css */
+.group-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow for emphasis */
+  border-radius: 8px; /* Rounded corners */
+  background-color:cadetblue; /* White background */
+  text-align: center;
+}
+
+.group-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.group-details p {
+  font-size: 18px;
+  margin: 5px 0;
+}

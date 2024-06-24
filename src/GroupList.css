@@ -1,0 +1,51 @@
+.group-list {
+  background-color: #f8f9fa;
+  padding: 20px;
+  max-height: 80vh;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .group-list {
+    padding: 10px;
+  }
+}
+
+.group-item {
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.group-item:hover {
+  background-color: #e9ecef;
+}
+/* GroupList.css */
+.group-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group-list input {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+/* GroupList.css */
+.group-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.group-list input {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,41 @@
+/* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-header {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Footer.css */
+.footer {
+  background-color: #343a40;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: 50px;
+    font-size: 12px;
+  }
+}
